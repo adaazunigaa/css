@@ -1,0 +1,94 @@
+body{
+    background-color: rgba(182, 271, 213, 1);
+}
+
+#idClasspage{
+    background-color: white;
+}
+
+
+
+h2{
+    font-size: 30px;
+    font-family: "Josefin Sans";
+}
+
+p{
+    font-size: 18px;
+    font-style: italic;
+}
+
+ol{
+    margin: 20px;
+    padding: 20px;
+    color: black;
+}
+
+
+/* Styles for the ID and Class lecture*/
+#main-title{
+    color:rgba(182, 271, 213);
+    background: black;
+    font-size: 85px;
+    font-family: "Happy Monkey";
+    padding: 10px;
+    text-align: right;
+}
+
+.sectionHeader{
+    color:rgba(182, 182, 220);
+    border: solid 1px black;
+    text-align: center;
+
+}
+
+
+
+
+/*styles for the descendant selsector lecture*/
+.primary-box{
+    background-color: white;
+    border: solid 10px #333;
+    padding: 20px;
+}
+
+.primary-box h2{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.secondary-box{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.secondary-box p{
+    font-size: 12px;
+    font-style: normal;
+}
+
+.secondary-box p em{
+    color: purple;
+}
+
+
+/*Styles for the grouping selector lecture*/
+#mainContainer{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+.primary-box, .secondary-box{
+    margin: 30px 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    border-bottom: solid 3px red;
+    padding:  0 0 10 px;
+}
+
+.inside-box{
+    border: solid 3px black;
+}
